@@ -16,7 +16,16 @@ const styles = StyleSheet.create({
 })
 
 function LangaugesNav({ selected, onUpdateLanguage }) {
-  const languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python']
+  const languages = [
+    'All',
+    'JavaScript',
+    'Ruby',
+    'Java',
+    'CSS',
+    'Python',
+    'Go',
+    'HTML'
+  ]
 
   return (
     <FlatList
